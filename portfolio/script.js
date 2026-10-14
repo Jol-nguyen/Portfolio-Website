@@ -1,7 +1,7 @@
 // PERSONALIZE YOUR PORTFOLIO HERE. All values below are examples.
 const profile = {
-  name: 'Alex Morgan',
-  firstName: 'Alex',
+  name: 'Jolie Nguyen',
+  firstName: 'Jolie',
   email: 'hello@example.com',
   location: 'AUSTIN, TEXAS',
   availability: 'OPEN TO CREATIVE COLLABORATIONS',
