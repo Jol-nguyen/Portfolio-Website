@@ -3,13 +3,13 @@ const profile = {
   name: 'Jolie Nguyen',
   firstName: 'Jolie',
   email: 'jngu4430@gmail.com',
-  location: 'DALLAS, TEXAS',
+  location: 'RICHARDSON, TEXAS',
   availability: 'OPEN TO CREATIVE COLLABORATIONS',
   intro: 'a designer & developer turning big ideas into colorful, thoughtful digital experiences.',
   aboutLead: 'I connect the dots between good design and things that actually work.',
   aboutBody: 'I’m a multidisciplinary creative who feels at home somewhere between a sketchbook and a code editor. I love making the complex feel simple, finding unexpected connections, and adding a little personality to the everyday.',
   outsideWork: 'Away from the screen, you’ll find me exploring new places, collecting inspiration, and probably starting another side project.',
-  skills: ['UI / UX Design', 'Web Development', 'Creative Thinking']
+  skills: ['Java', 'Python', 'JavaScript', 'AutoCAD', 'SOLIDWORKS']
 };
 
 document.querySelectorAll('[data-profile]').forEach(element => {
