@@ -11,3 +11,19 @@
 
 /* Soft surface lighting, with the existing green as the base color. */
 .ticker{background:linear-gradient(180deg,rgba(255,255,255,.08),transparent 38%,rgba(10,30,20,.16)),var(--green);box-shadow:inset 0 1px 0 rgba(255,255,255,.24),inset 0 2px 0 rgba(255,255,255,.05),inset 0 -1px 0 rgba(8,25,17,.35),inset 0 -3px 0 rgba(8,25,17,.08),0 2px 4px rgba(16,35,24,.09)}
+
+
+/* Enlarge decorative airplanes without changing their layout footprints. */
+.small-star svg,.art-spark svg,.ticker i svg,.tiny-shape svg,.project-visual>.serif-word svg,.visual-bottom svg{transform:scale(1.8);transform-origin:center;overflow:visible}
+
+/* Give the Home visual and profile corner airplanes greater prominence. */
+.hero-art .art-spark svg,#about .tiny-shape svg{transform:scale(3.6)}
+
+/* Scale airplane outlines in proportion to the project-cover reference. */
+.brand-mark svg path,.small-star svg path,.art-spark svg path,.ticker i svg path,.tiny-shape svg path,.visual-bottom svg path,.footer-star svg path{stroke-width:calc(var(--airplane-stroke,.24) * 2.25)}
+.project-visual>.serif-word svg path{stroke-width:var(--airplane-stroke,.24)}
+
+
+
+/* Give the top-left logo airplane a thicker outline. */
+.brand-mark svg path{stroke-width:calc(var(--airplane-stroke,.24) * 3.375)}

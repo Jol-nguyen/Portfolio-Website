@@ -37,3 +37,17 @@ const observer = new IntersectionObserver(entries => {
   });
 }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
 document.querySelectorAll('main > section').forEach(section => observer.observe(section));
+
+// Preserve the project-cover airplane's 1px outline as the size-to-stroke reference.
+function setAirplaneStrokeRatio() {
+  const reference = document.querySelector('.project-visual > .serif-word svg');
+  const matrix = reference?.getScreenCTM();
+  if (!matrix) return;
+  const scale = Math.hypot(matrix.a, matrix.b);
+  if (scale > 0) {
+    document.documentElement.style.setProperty('--airplane-stroke', String(1 / scale));
+  }
+}
+setAirplaneStrokeRatio();
+document.fonts.ready.then(setAirplaneStrokeRatio);
+window.addEventListener('resize', setAirplaneStrokeRatio);
