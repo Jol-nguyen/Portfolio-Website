@@ -5,7 +5,7 @@ const profile = {
   email: 'jngu4430@gmail.com',
   location: 'RICHARDSON, TEXAS',
   availability: 'OPEN TO CREATIVE COLLABORATIONS',
-  intro: 'a highly adaptable and perservering student developer harnessing agentic AI to create innovative solutions for real-world problems.',
+  intro: 'I am a highly adaptable and perservering student developer harnessing agentic AI to create innovative solutions for real-world problems.',
   aboutLead: 'I take ideas and bring them into reality, improving upon existing foundations for a more tailored final product.',
   aboutBody: 'I am a first-year Computer Engineering student currently studying academia while branching out into more practical experiences related to my future career. The process of bringing a basic idea from the depths of my imagination into a concrete and interactive project inspires me, despite the inevitable issues and discovered unintended behavior. I hope to put my talents and learned knowledge to use while also continuing to grow my capabilities and collaborate with others in related studies.',
   outsideWork: 'Other than academic and extracurricular work, I enjoy constructing wooden models, solving logic puzzles, and coding casual side projects.',
