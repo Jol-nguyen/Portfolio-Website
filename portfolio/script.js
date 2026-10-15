@@ -5,10 +5,10 @@ const profile = {
   email: 'jngu4430@gmail.com',
   location: 'RICHARDSON, TEXAS',
   availability: 'OPEN TO CREATIVE COLLABORATIONS',
-  intro: 'a designer & developer turning big ideas into colorful, thoughtful digital experiences.',
-  aboutLead: 'I connect the dots between good design and things that actually work.',
-  aboutBody: 'I’m a multidisciplinary creative who feels at home somewhere between a sketchbook and a code editor. I love making the complex feel simple, finding unexpected connections, and adding a little personality to the everyday.',
-  outsideWork: 'Away from the screen, you’ll find me exploring new places, collecting inspiration, and probably starting another side project.',
+  intro: 'a highly adaptable and perservering student developer harnessing agentic AI to create innovative solutions for real-world problems.',
+  aboutLead: 'I take ideas and bring them into reality, improving upon existing foundations for a more tailored final product.',
+  aboutBody: 'I am a first-year Computer Engineering student currently studying academia while branching out into more practical experiences related to my future career. The process of bringing a basic idea from the depths of my imagination into a concrete and interactive project inspires me, despite the inevitable issues and discovered unintended behavior. I hope to put my talents and learned knowledge to use while also continuing to grow my capabilities and collaborate with others in related studies.',
+  outsideWork: 'Other than academic and extracurricular work, I enjoy constructing wooden models, solving logic puzzles, and coding casual side projects.',
   skills: ['Java', 'Python', 'JavaScript', 'AutoCAD', 'SOLIDWORKS']
 };
 
